@@ -1,0 +1,38 @@
+/* css reset */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+     background-color: #060A16;
+     height: 50px;
+ }
+ .container-grid{
+     width: 1000px;
+     margin: 0 auto;
+
+ }
+
+ .cabecalho {
+display: flex;
+justify-content: space-between;
+align-items: center; 
+height: 100%;
+} 
+
+.menu { 
+width: 400px;
+display: flex;
+justify-content: space-between;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a {
+    color: white;
+ text-decoration: none;
+ font-size:  15px;
+ text-transform: uppercase; 
+}
